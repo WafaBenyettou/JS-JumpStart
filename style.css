@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/*NAVBAR*/
+
+.navbar .navbar-nav .nav-item a {
+    padding: 20px;
+    font-size: 20px;
+    transition: 0.6s;
+
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: yellow;
+    font-size: 25px;
+}
+
+
+.main {
+
+    padding: 0;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 255, 149);
+}
+
+.main .conatiner-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main .conatiner-content h1 {
+    font-size: 90px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.main .conatiner-content p {
+    font-size: 20px;
+}
+
+.main .conatiner-content .event-time-location .eventinfo {
+    display: inline-block;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.main .conatiner-content .JsFields {
+    background-color: rgb(46, 46, 46);
+    border-radius: 50px;
+
+}
+
+.main .conatiner-content .JsFields p {
+    font-weight: bold;
+    color: yellow;
+    padding: 5px;
+    font-size: 30px;
+    padding: 12px;
+}
+
+.main .conatiner-content .JsFields span {
+    font-weight: normal;
+    color: white;
+}
+
+.countdown-timer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-timer h1 {
+    font-size: 35px;
+    padding: 20px;
+
+
+}
+
+.countdown-timer b {
+    text-shadow: 3px 3px rgb(255, 255, 0);
+}
+
+
+/*About The event section*/
+.about-the-event {
+    height: 800px;
+    margin: 20px;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: rgb(244, 255, 149);
+}
+
+.about-the-event .about-container .about-content {
+
+    display: inline-block;
+    /* Set display property to inline-block */
+    width: 45%;
+    padding-left: 220px;
+}
+
+.about-the-event .about-container .about-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.about-the-event .about-container .about-content p {
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.about-the-event .about-container .about-image {
+    display: inline-block;
+    /* Set display property to inline-block */
+    width: 35%;
+}
+
+.about-the-event .about-container .about-image img {
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.63);
+}
+
+/*speaker section*/
+.speaker {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speaker .speaker-container {
+    padding-bottom: 120px;
+}
+
+.speaker .speaker-container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.speaker .speaker-container .speaker_content {
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 30px 100px;
+    background-color: black;
+    color: white;
+}
+
+.speaker_content {
+    text-align: center;
+
+}
+
+.speaker_content h3 {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.speaker_content p {
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.speaker_content #info {
+    width: 350px;
+
+}
+
+.speaker_content img {
+    width: 50%;
+    border-radius: 100%;
+}
+
+/*buttons*/
+
+
+
+/* CSS */
+.left {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: rgb(244, 255, 149);
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 92px;
+}
+
+.left:hover,
+.left:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.left:active {
+    background: var(--color);
+    color: #fff;
+}
+
+
+.right {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: rgb(244, 255, 149);
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #dceb0800;
+    outline-offset: .6em;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 92px;
+}
+
+.right:hover,
+.right:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.right:active {
+    background: var(--color);
+    color: #fff;
+}
+
+
+
+.agenda {
+    background-color: rgb(244, 255, 149);
+}
+
+.agenda-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(244, 255, 149);
+}
+
+.agenda-container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.agenda-container h3.year {
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+.agenda-container .agenda-content {
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+    background-color: white;
+
+}
+
+.agenda-content .agenda-left {
+    background: #222;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.agenda-content .agenda-left .date {
+    font-size: 56px;
+
+}
+
+.agenda-content .agenda-left .month {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.agenda-content .agenda-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.agenda-content .agenda-right h3.agenda-title {
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color: #218bbb;
+    text-transform: uppercase;
+}
+
+.agenda-content .agenda-right .agenda-timing {
+    background: #fff8ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0;
+    font-size: 14px;
+}
+
+.agenda-content .agenda-right .agenda-timing img {
+    height: 15px;
+    padding-right: 8px;
+}
+
+@media (max-width: 550px) {
+    .agenda-content {
+        flex-direction: column;
+    }
+
+    .agenda-content .agenda-left {
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .agenda-content .agenda-left .agenda-date .date,
+    .agenda-content .agenda-left .agenda-date .month {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .agenda-content .agenda-left .agenda-date {
+        padding: 10px 0;
+    }
+}
+
+.faq {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000;
+    border-radius: 25px;
+    padding: 45px 90px 45px 60px;
+    max-width: 1010px;
+    width: 100%;
+    box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.9);
+
+}
+
+.faq-container .faq-image-container {
+    height: 360px;
+    width: 360px;
+
+}
+
+.faq-container .faq-image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.faq-container .accordin-text {
+    width: 50%;
+}
+
+.faq-container .accordin-text .title {
+
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+
+
+}
+
+.faq-container .accordin-text .title h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.faq-container .accordin-text .faq-text {
+    margin-top: 25px;
+    height: 263px;
+    overflow-y: auto;
+}
+
+.faq-text::-webkit-scrollbar {
+    display: none;
+}
+
+.faq-container .accordin-text li {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+.accordin-text li .question-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordin-text li:hover .question-arrow .question,
+.accordin-text li:hover .question-arrow img {
+    color: yellow;
+}
+
+.accordin-text li.showAnswer .question-arrow .question,
+.accordin-text li.showAnswer .question-arrow img {
+    color: yellow;
+
+}
+
+.accordin-text li .line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.accordin-text li .question-arrow .question {
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.accordin-text li .question-arrow img {
+    width: 15px;
+    transition: all 0.3s ease;
+}
+
+
+.accordin-text li.showAnswer .question-arrow img {
+
+    transform: rotate(-180deg);
+}
+
+.accordin-text li p {
+    width: 92%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+}
+
+.accordin-text li.showAnswer p {
+    display: block;
+}
+
+
+/**foooooooooter*/
+
+.footer {
+    padding: 40px 0;
+    background-color: #000000;
+}
+.footer h1{
+    text-align: center;
+    color: white;
+}
+.footer p{
+    text-align: center;
+    padding-bottom:20px ;
+    color: white;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #d9ff00;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+    color: #d9ff00
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
