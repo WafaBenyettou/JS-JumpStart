@@ -208,12 +208,12 @@ body {
 }
 /*speaker section*/
 .speaker {
-    height: 900px;
+    height: 800px;
+ 
    
 }
 
 .speaker .speaker-container {
-    padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,7 +232,7 @@ body {
 
     border: 2px solid black;
     border-radius: 40px;
-    padding: 30px 100px;
+    padding: 20px 60px;
     background-color: black;
     color: white;
 }
@@ -344,7 +344,9 @@ body {
 
 @media (max-width: 550px){
    
-   
+    .speaker{
+        padding: 30px;
+    }
 
     .speaker_content_info{
        text-align: center;
@@ -352,14 +354,9 @@ body {
     }
     .speaker h1 {
         font-size: 40px;
-        padding-top:120px;
+        padding-top:50px;
     }
-    .speaker-container{
-        padding: 20px;
-        
-        
-    }
- 
+  
     
     .speaker .speaker-container .speaker_content {
         border-radius: 40px;
@@ -635,6 +632,9 @@ body {
 }
 
 @media (max-width: 550px) {
+    .faq{
+        padding: 20px;
+    }
     .faq-container .accordin-text .title h1{
         text-align: center;
         padding-top: 20px;
