@@ -74,6 +74,39 @@ body {
     color: white;
 }
 
+@media (max-width: 550px){
+   
+    .main .conatiner-content h1 {
+        font-size: 38px;
+        font-weight: 900;
+        padding: 20px;
+        text-align: left;
+    }
+    .main .conatiner-content .JsFields {
+        background-color: rgb(46, 46, 46);
+        border-radius: 50px;
+    
+    }
+    
+    .main .conatiner-content .JsFields p {
+        font-weight: bold;
+        color: yellow;
+        padding: 5px;
+        font-size: 20px;
+        padding: 12px;
+    }
+    .main .conatiner-content .event-time-location {
+        margin-bottom: 20px;
+    }
+    .main .conatiner-content .event-time-location .eventinfo {
+        display: inline-block;
+        padding: 0px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+}
+
 .countdown-timer {
     height: 300px;
     display: flex;
@@ -93,6 +126,20 @@ body {
 }
 
 
+@media (max-width: 550px){
+    .countdown-timer{
+        padding: 20px;
+      
+
+    }
+    .countdown-timer h1 {
+        font-size: 35px;
+        padding: 0px;
+    
+    
+    }
+}
+
 /*About The event section*/
 .about-the-event {
     height: 800px;
@@ -111,7 +158,6 @@ body {
 .about-the-event .about-container .about-content {
 
     display: inline-block;
-    /* Set display property to inline-block */
     width: 45%;
     padding-left: 220px;
 }
@@ -130,7 +176,7 @@ body {
 
 .about-the-event .about-container .about-image {
     display: inline-block;
-    /* Set display property to inline-block */
+    
     width: 35%;
 }
 
@@ -139,19 +185,42 @@ body {
     box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.63);
 }
 
+
+@media (max-width: 550px){
+    .about-the-event .about-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .about-the-event .about-container .about-content {
+        width: 100%;
+        padding: 20px;
+    }
+    .about-the-event .about-container .about-image{
+        width: 100%;
+    }
+    .about-the-event .about-container .about-image img {
+        max-width:100%;
+        margin: auto;
+    }
+
+
+}
 /*speaker section*/
 .speaker {
     height: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
 }
 
 .speaker .speaker-container {
     padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
 }
 
-.speaker .speaker-container h1 {
+.speaker h1 {
     font-size: 50px;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -160,6 +229,7 @@ body {
 }
 
 .speaker .speaker-container .speaker_content {
+
     border: 2px solid black;
     border-radius: 40px;
     padding: 30px 100px;
@@ -173,7 +243,7 @@ body {
 }
 
 .speaker_content h3 {
-    padding: 20px;
+    padding: 30px;
     font-weight: bold;
 }
 
@@ -193,6 +263,8 @@ body {
     border-radius: 100%;
 }
 
+
+
 /*buttons*/
 
 
@@ -200,9 +272,8 @@ body {
 /* CSS */
 .left {
     --b: 3px;
-    /* border thickness */
     --s: .45em;
-    /* size of the corner */
+
     --color: rgb(244, 255, 149);
 
     padding: calc(.5em + var(--s)) calc(.9em + var(--s));
@@ -238,9 +309,7 @@ body {
 
 .right {
     --b: 3px;
-    /* border thickness */
     --s: .45em;
-    /* size of the corner */
     --color: rgb(244, 255, 149);
 
     padding: calc(.5em + var(--s)) calc(.9em + var(--s));
@@ -271,6 +340,65 @@ body {
 .right:active {
     background: var(--color);
     color: #fff;
+}
+
+@media (max-width: 550px){
+   
+   
+
+    .speaker_content_info{
+       text-align: center;
+   
+    }
+    .speaker h1 {
+        font-size: 40px;
+        padding-top:120px;
+    }
+    .speaker-container{
+        padding: 20px;
+        
+        
+    }
+ 
+    
+    .speaker .speaker-container .speaker_content {
+        border-radius: 40px;
+        background-color: black;
+        color: white;
+        padding-top:20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    .right {
+        margin-left:0px ;
+    }
+    .left {
+        margin-left:0px ;
+    }
+    
+   
+    
+    .speaker_content h3 {
+     
+        font-weight: bold;
+    }
+    
+    .speaker_content p {
+        font-size: 15px;
+        text-align: center;
+    
+    }
+    
+
+    
+    .speaker_content img {
+        width: 40%;
+        border-radius: 100%;
+    }
+
+
 }
 
 
