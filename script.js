@@ -22,7 +22,7 @@ const speakers = [
       name:"{ Wafa }",
       job:"House wife",
       img:"",
-      text:"Full stack web developer, ex-ITC lead and a freelancer chez Ooredoo",
+      text:"Full stack web developer ex-ITC lead and a freelancer chez Ooredoo",
 
   },
   {
@@ -31,7 +31,7 @@ const speakers = [
       name:"{ Wafa2 }",
       job:"House wife2",
       img:"",
-      text:"Hello World!\nThis is my string", 
+      text:"Hello World!This is my string", 
 
   },
   {
