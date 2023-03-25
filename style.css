@@ -256,10 +256,6 @@ body {
 
 }
 
-.speaker_content #info {
-    width: 350px;
-
-}
 
 .speaker_content img {
     width: 50%;
@@ -376,10 +372,7 @@ body {
         padding: 18px;
 
     }
-    .speaker .speaker-container .speaker_content #info{
-        width: 260px;
-        padding: 10px;
-    }
+  
     .right {
         margin-left:0px ;
     }
