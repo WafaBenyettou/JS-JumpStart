@@ -262,6 +262,7 @@ body {
 
 .speaker_content img {
     width: 50%;
+    margin: auto;
     border-radius: 100%;
 }
 
