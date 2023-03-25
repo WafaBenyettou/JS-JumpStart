@@ -11,6 +11,8 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flipdown.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+
     <script src="flipdown.min.js"></script>
     <title>JavaScript JumpStart</title>
 </head>
@@ -20,44 +22,39 @@
 
     <!--------------NAVBAR--------------------------->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Hidden brand</a>
-            <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-            <li>
-            <li class="nav-but">
-                <a href="#" class="btn btn-outline-light">Register</a>
-            </li>
-            </li>
-        </div>
-    </nav>
+   
+<nav class="bg-dark border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <a href="https://flowbite.com/" class="flex items-center">
+          <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+          <span class="self-center text-xl font-semibold whitespace-nowrap white:text-dark text-white">Flowbite</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
 
+      <div class="hidden w-full md:block md:w-auto bg-dark" id="navbar-default">
+        <ul class="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-dark dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
 
 
 
@@ -134,7 +131,6 @@
     <section class="speaker">
         <h1>Our Speakers</h1>
         <div class="speaker-container">
-         
 
             <div class="speaker_content">
                 <img src="/images//speaker.png" alt="speaker" srcset="">
@@ -316,57 +312,57 @@
             <div class="faq-image-container">
                 <img src="images/illustration-woman-online-desktop.svg" alt="">
             </div>
-       
 
-        <div class="accordin-text">
-            <div class="title">
-                <h1>F&Q</h1>
+
+            <div class="accordin-text">
+                <div class="title">
+                    <h1>F&Q</h1>
+                </div>
+
+                <ul class="faq-text">
+                    <li>
+                        <div class="question-arrow">
+                            <span class="question">What is js?</span>
+                            <img src="images/icon-arrow-down.svg" alt="arrow-down">
+                        </div>
+                        <p>Js is a programming language that is mainly used everywhere surtt f web </p>
+                        <span class="line"></span>
+                    </li>
+
+                    <li>
+                        <div class="question-arrow">
+                            <span class="question">What is js</span>
+                            <img src="images/icon-arrow-down.svg" alt="arrow-down">
+                        </div>
+                        <p>Js is a programming language that is mainly used everywhere surtt f web </p>
+                        <span class="line"></span>
+                    </li>
+
+                    <li>
+                        <div class="question-arrow">
+                            <span class="question">What is js</span>
+                            <img src="images/icon-arrow-down.svg" alt="arrow-down">
+                        </div>
+                        <p>Js is a programming language that is mainly used everywhere surtt f web </p>
+                        <span class="line"></span>
+                    </li>
+
+                    <li>
+                        <div class="question-arrow">
+                            <span class="question">What is js</span>
+                            <img src="images/icon-arrow-down.svg" alt="arrow-down">
+                        </div>
+                        <p>Js is a programming language that is mainly used everywhere surtt f web </p>
+                        <span class="line"></span>
+                    </li>
+
+
+                </ul>
             </div>
-       
-        <ul class="faq-text">
-            <li>
-                <div class="question-arrow">
-                    <span class="question">What is js?</span>
-                    <img src="images/icon-arrow-down.svg" alt="arrow-down">
-                </div>
-                <p>Js is a programming language that is mainly used everywhere surtt f web </p>
-                <span class="line"></span>
-            </li>
+        </div>
 
-            <li>
-                <div class="question-arrow">
-                    <span class="question">What is js</span>
-                    <img src="images/icon-arrow-down.svg" alt="arrow-down">
-                </div>
-                <p>Js is a programming language that is mainly used everywhere surtt f web </p>
-                <span class="line"></span>
-            </li>
+    </section>
 
-            <li>
-                <div class="question-arrow">
-                    <span class="question">What is js</span>
-                    <img src="images/icon-arrow-down.svg" alt="arrow-down">
-                </div>
-                <p>Js is a programming language that is mainly used everywhere surtt f web </p>
-                <span class="line"></span>
-            </li>
-
-            <li>
-                <div class="question-arrow">
-                    <span class="question">What is js</span>
-                    <img src="images/icon-arrow-down.svg" alt="arrow-down">
-                </div>
-                <p>Js is a programming language that is mainly used everywhere surtt f web </p>
-                <span class="line"></span>
-            </li>
-
-     
-        </ul>
-    </div>
-      </div>
-  
-      </section>
-  
 
 
     <!--------------FOOTER----------------->
@@ -380,26 +376,29 @@
             <a href="#"><i class="fab fa-snapchat"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-facebook-f"></i></a>
-          </div>
-          <ul class="list">
+        </div>
+        <ul class="list">
             <li>
-              <a href="#">Home</a>
+                <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Services</a>
+                <a href="#">Services</a>
             </li>
             <li>
-              <a href="#">About</a>
+                <a href="#">About</a>
             </li>
             <li>
-              <a href="#">Terms</a>
+                <a href="#">Terms</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+                <a href="#">Privacy Policy</a>
             </li>
-          </ul>
-          <p class="copyright">ITCommunity @ 2023</p>
+        </ul>
+        <p class="copyright">ITCommunity @ 2023</p>
     </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
