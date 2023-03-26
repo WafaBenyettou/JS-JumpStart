@@ -22,8 +22,8 @@ const speakers = [
       id:1,
       img:"images/speaker.png",
       name:"{ Wafa }",
-      job:"House wife",
-      img:"",
+      job:"JS Workflows",
+   
       text:"Full stack web developer ex-ITC lead and a freelancer chez Ooredoo",
 
   },
@@ -32,7 +32,7 @@ const speakers = [
       img:"images/speaker.png",
       name:"{ Wafa2 }",
       job:"House wife2",
-      img:"",
+   
       text:"Hello World!This is my string", 
 
   },
@@ -41,7 +41,7 @@ const speakers = [
       img:"images/speaker.png",
       name:"{ Wafa3 }",
       job:"House wife",
-      img:"",
+   
       text:"great opportunity for anyone who wants to start                       ",
 
   },
@@ -50,7 +50,7 @@ const speakers = [
       img:"images/speaker.png",
       name:"{ Wafa4 }",
       job:"House wife",
-      img:"",
+   
       text:"Ya khawti ana 3yit mn 9raya                                            ",
 
   },

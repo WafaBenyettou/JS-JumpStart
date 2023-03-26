@@ -27,7 +27,7 @@ body {
 .main {
 
     padding: 0;
-    height: 800px;
+    height: 750px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,6 +73,20 @@ body {
     font-weight: normal;
     color: white;
 }
+.main .conatiner-content .watch{
+    padding: 40px;
+  
+  
+}
+.main .conatiner-content .watch .video{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.897);
+  
+}
+
 
 @media (max-width: 550px){
    
@@ -144,16 +158,15 @@ body {
 /*About The event section*/
 .about-the-event {
     height: 800px;
-    margin: 20px;
-
 }
 
 .about-container {
     display: flex;
     justify-content: space-between;
     padding-top: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     background-color: rgb(244, 255, 149);
+    
 }
 
 .about-the-event .about-container .about-content {
@@ -188,6 +201,11 @@ body {
 
 
 @media (max-width: 550px){
+
+    .about-the-event{
+        width: 100%;
+        height: 1100px;
+    }
     .about-the-event .about-container {
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -210,7 +228,7 @@ body {
 }
 /*speaker section*/
 .speaker {
-    height: 800px;
+    height: 700px;
  
    
 }
@@ -223,10 +241,11 @@ body {
 }
 
 .speaker h1 {
+   padding-bottom: 90px;
     font-size: 50px;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    padding-bottom: 50px;
+    
     text-align: center;
 }
 
@@ -356,6 +375,7 @@ body {
         font-size: 40px;
         padding-top:50px;
       
+      
     }
     .speaker .speaker-container {
        display: block;
@@ -367,8 +387,6 @@ body {
       
         background-color: black;
         color: white;
-        padding-top:20px;
-        padding-bottom: 20px;
         padding: 18px;
 
     }
