@@ -6,7 +6,7 @@ let typed = new Typed(".text",{
 })
 
 
-new FlipDown(1681169192, {
+new FlipDown(1680042601, {
   theme:"dark",
 }).start().ifEnded(()=>{
   console.log("the countdown has ended!");
