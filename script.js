@@ -6,7 +6,7 @@ let typed = new Typed(".text",{
 })
 
 
-new FlipDown(1680042601, {
+new FlipDown(1680042600, {
   theme:"dark",
 }).start().ifEnded(()=>{
   console.log("the countdown has ended!");
@@ -20,38 +20,38 @@ new FlipDown(1680042601, {
 const speakers = [
   {
       id:1,
-      img:"images/speaker.png",
-      name:"{ Wafa }",
-      job:"JS Workflows",
+      img:"images/speaker01.png",
+      name:"{ Chahine BENDJEDDOU}",
+      job:"Introduction to JavaScript",
    
-      text:"Full stack web developer ex-ITC lead and a freelancer chez Ooredoo",
+      text:"Full stack web developer, Software engineer student",
 
   },
   {
       id:2,
-      img:"images/speaker.png",
-      name:"{ Wafa2 }",
-      job:"House wife2",
+      img:"images/speaker03.png",
+      name:"{ Comming soon.. }",
+      job:"Comming soon..",
    
-      text:"Hello World!This is my string", 
+      text:"Comming soon..", 
 
   },
   {
       id:3,
-      img:"images/speaker.png",
-      name:"{ Wafa3 }",
-      job:"House wife",
+      img:"images/speaker03.png",
+      name:"{ Comming soon.. }",
+      job:"Comming soon..",
    
-      text:"great opportunity for anyone who wants to start                       ",
+      text:"Comming soon..     ",
 
   },
   {
       id:4,
-      img:"images/speaker.png",
-      name:"{ Wafa4 }",
-      job:"House wife",
+      img:"images/speaker03.png",
+      name:"{ Comming soon.. }",
+      job:"Comming soon..",
    
-      text:"Ya khawti ana 3yit mn 9raya                                            ",
+      text:"Comming soon..                                         ",
 
   },
 ];
@@ -61,6 +61,7 @@ const speakers = [
 const speaker = document.getElementById('speaker');
 const job = document.getElementById('job');
 const info = document.getElementById('info');
+const Image = document.getElementById('img');
 
 const rightbutton = document.querySelector(".right");
 const leftbutton = document.querySelector(".left");
