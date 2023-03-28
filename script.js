@@ -1,5 +1,5 @@
 let typed = new Typed(".text",{
-    strings: ['ReactJS','BrainJS','VuJS','NodeJS','Frameworks', 'Web Dev','Android'],
+    strings: ['ReactJS','BrainJS','VueJS','NodeJS','Frameworks', 'Web Dev','Android'],
     typeSpeed:150,
     backSpeed:150,
     loop:true
