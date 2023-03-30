@@ -29,11 +29,11 @@ const speakers = [
   },
   {
       id:2,
-      img:"images/speaker03.png",
-      name:"{ Comming soon.. }",
-      job:"Comming soon..",
+      img:"images/speaker02.png",
+      name:"{ Afaf KELAI }",
+      job:"JS in Backend development",
    
-      text:"Comming soon..", 
+      text:"Software engineer @Lasting dynamics, FullStack JS mentor and Instructor, GDG organizer and WTM Ambassador .", 
 
   },
   {
