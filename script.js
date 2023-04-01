@@ -38,11 +38,11 @@ const speakers = [
   },
   {
       id:3,
-      img:"images/speaker03.png",
-      name:"{ Comming soon.. }",
-      job:"Comming soon..",
+      img:"images/cherif.png",
+      name:"{ Cherif BOUCHELAGHEM }",
+      job:"JavaScript & Software Engineering",
    
-      text:"Comming soon..     ",
+      text:"Software development engineer at Bitovi (USA) With over 15 years of experience in software engineering .",
 
   },
   {
