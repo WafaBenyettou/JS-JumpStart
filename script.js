@@ -24,7 +24,7 @@ const speakers = [
       name:"{ Chahine BENDJEDDOU}",
       job:"Introduction to JavaScript",
    
-      text:"Full stack web developer, Software engineer student",
+      text:"Full stack web developer, Software engineer student and Vice president at ITCommunity Club .",
 
   },
   {
