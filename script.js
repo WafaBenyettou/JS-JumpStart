@@ -47,13 +47,21 @@ const speakers = [
   },
   {
       id:4,
-      img:"images/speaker03.png",
-      name:"{ Comming soon.. }",
-      job:"Comming soon..",
+      img:"images/redha.png",
+      name:"{ Redha Amirouche }",
+      job:" JavaScript tools and workflow ",
    
-      text:"Comming soon..                                         ",
-
+      text:"Full stack web developer, software engineering apprentice at SAP",
   },
+  {
+    id:5,
+    img:"images/speaker03.png",
+    name:"{ Comming soon.. }",
+    job:"Comming soon..",
+ 
+    text:"Comming soon..                                         ",
+
+},
 ];
 
 
